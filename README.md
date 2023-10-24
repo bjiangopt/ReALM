@@ -31,7 +31,7 @@ We generated the Shakespeare and Mnist data using the approach outlined in RAGAS
    - iRBBS_for_ReALM.m is nearly identical to iRBB4PWR.m but has been rewritten for easier integration in ReALM4PRW.m
    - ReALM4PRW.m is the main code for REALM in our paper, and it will invoke  iRBBS_for_ReALM.m;
    - RABCD4PRW.m and RBCD4PRW.m are the codes of R(A)BCD proposed by Huang, Ma \& Lai (2021);
-     For the authors' implementation version of R(A)BCD, please visit: https://github.com/mhhuang95/PRW_RBCD 
+     For the authors' implementation version of R(A)BCD (in Python), please visit: https://github.com/mhhuang95/PRW_RBCD 
    - Pi_post.m is to round a matrix as a feasible matrix in Pi(r,c); 
    - PRW_fixedU_Mosek.m: after obtain a nearly optimal U, we solve a standard optimal transport problem by Mosek; 
    - PRW_fixedU_Gurobi.m: after obtain a nearly optimal U, we solve a standard optimal transport problem by Gurobi;
