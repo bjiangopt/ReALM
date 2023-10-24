@@ -13,14 +13,14 @@ We hope the codes are useful for your research and application. If you have any 
 
 # Data generation: 
 
-We generated the Shakespeare and Mnist data using the approach outlined in RAGAS package 
-(Python, https://github.com/fanchenyou/PRW) and saved the corresponding matfiles. 
+We generated the Shakespeare and Mnist data using the approach outlined in RAGAS package provided by Lin et al. 2020 
+(Python, https://github.com/fanchenyou/PRW) and saved the corresponding matfiles in ./mnist and ./shakespeare. 
 
 # Codes description 
 
 1. To generate Tables 1 and 3 in our paper,
    - Run demo_PRW_fixed_eta_for_shakespeare_mnist.m with nRun = 20;
-   - Run Tables1_3_shakespeare_mnist_iRBBS_RABCD.m (please modify some settings following the remarks in PRW_fixed_eta_for_shakespeare_mnist.m)
+   - Run Tables1_3_shakespeare_mnist_iRBBS_RABCD.m (please modify some settings following the remarks in PRW_fixed_eta_for_shakespeare_mnist.m) 
 
 2. To generate Tables 2 and 5 in our paper, 
    - demo_PRW_compare_ReALM_for_shakespeare_mnist.m with nRun = 20; 
